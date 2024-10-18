@@ -1,0 +1,84 @@
+#home {
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.home-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#home h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#home h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#home h4 {
+    font-size: 24px;
+}
+
+/* Styles voor recensies */
+.ratings {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recensie {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recensie:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.recensie h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.recensie h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+.recensie p {
+    font-size: 14px;
+    color: #666666;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0077cc;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

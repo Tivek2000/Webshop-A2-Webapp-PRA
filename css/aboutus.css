@@ -1,0 +1,38 @@
+/* aboutus.css */
+
+/* Zorg ervoor dat de flex-opstelling correct is */
+.aboutus-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.image-left,
+.image-right {
+    flex: 1;
+}
+
+.image-left img,
+.image-right img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus-text {
+    flex: 2;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.aboutus-text h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.aboutus-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
